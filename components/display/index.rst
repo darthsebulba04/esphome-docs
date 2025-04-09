@@ -113,6 +113,8 @@ Now that you know a bit more about ESPHome's coordinate system, let's draw some 
       - platform: ...
         # ...
         lambda: |-
+          // Draw a point at [20,30]
+          it.point(20, 30);
           // Draw a line from [0,0] to [100,50]
           it.line(0, 0, 100, 50);
           // Draw the outline of a rectangle with the top left at [5,20], a width of 30 and a height of 42
